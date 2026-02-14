@@ -26,5 +26,4 @@ def delete_old_avatar(sender, instance, **kwargs):
     new_file = instance.photo
 
     if old_file and old_file != new_file:
-        if old_file.name != 'default_avatar.png':
-            old_file.delete(save=False)
+        old_file.delete(save=False)

@@ -14,5 +14,10 @@ class Profile(models.Model):
         upload_to=user_directory_path,
         null=True,
         blank=True,
-        default='default_avatar.png'
     )
+
+    @property
+    def photo_exists(self):
+        if self.photo and os.path.isfile(self.photo.path):
+            return True
+        return False

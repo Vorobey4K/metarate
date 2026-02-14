@@ -11,10 +11,10 @@
     <!-- ===== ПРОФИЛЬ ===== -->
     <header class="profile-header">
         <div class="profile-avatar">
-            {% if user.profile.photo %}
+            {% if user.profile.photo_exists %}
                 <img src="{{ user.profile.photo.url }}" alt="Аватар" class="avatar">
             {% else %}
-                <img src="/media/users/default-avatar.png" alt="Аватар" class="avatar">
+                <img src="/media/users/icons/default_avatar.png" alt="Аватар" class="avatar">
             {% endif %}
         </div>
 
