@@ -1,5 +1,5 @@
 # 🎬 Metarate
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+**Tech Stack:**[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.2-092E20?logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
@@ -7,7 +7,7 @@
 [![Nginx](https://img.shields.io/badge/Nginx-1.25-009639?logo=nginx&logoColor=white)](https://www.nginx.com/)
 [![GitHub OAuth](https://img.shields.io/badge/GitHub-OAuth-181717?logo=github&logoColor=white)](https://docs.github.com/en/developers/apps/building-oauth-apps)
 [![Gmail SMTP](https://img.shields.io/badge/SMTP-Gmail-D14836?logo=gmail&logoColor=white)](https://mail.google.com/)
-**Tech Stack:** Python 3.12 | Django 5.2 | PostgreSQL | SQLite | Gunicorn | Nginx | GitHub OAuth | SMTP (Gmail)
+
 
 Metarate is a personal tracker for ratings and reviews of movies, books, TV series, and video games.  
 Users can track completed content, add reviews, set ratings, and manage bookmarks.  
