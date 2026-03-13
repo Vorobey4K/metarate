@@ -10,9 +10,8 @@ WORKDIR /app/www/metarate
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
+RUN chmod +x metarate/entrypoint.sh
 
 USER usermetarate
 
 ENTRYPOINT ["./entrypoint.sh"]
-
-#docker run --name metarate -d --network metarate_network -p 8000:4000 --link psgr:dbps -v .:app/www/metarate
