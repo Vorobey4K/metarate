@@ -10,8 +10,8 @@ WORKDIR /app/www/metarate
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
-RUN chmod +x metarate/entrypoint.sh
+
 
 USER usermetarate
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["sh","entrypoint.sh"]
